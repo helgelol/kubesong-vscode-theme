@@ -1,0 +1,21 @@
+{
+  "name": "kubesong",
+  "displayName": "Kubesong",
+  "description": "Dark theme inspired by Earthsong",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.62.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kubesong",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Kubesong-color-theme.json"
+      }
+    ]
+  }
+}
