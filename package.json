@@ -3,12 +3,25 @@
   "displayName": "Kubesong",
   "description": "Dark theme inspired by Earthsong",
   "version": "1.0.0",
+  "publisher": "Kubes",
   "engines": {
     "vscode": "^1.62.0"
   },
   "categories": [
     "Themes"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/helgejs/kubesong-vscode-theme"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/helgejs/kubesong-vscode-theme/-/issues"
+  },
+  "galleryBanner": {
+    "color": "#252c35",
+    "theme": "dark"
+  },
+  "icon": "https://gitlab.com/helgejs/kubesong-vscode-theme/-/raw/main/images/icon/kubesLogo.png",
   "contributes": {
     "themes": [
       {
