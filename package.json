@@ -2,7 +2,7 @@
   "name": "kubesong",
   "displayName": "Kubesong",
   "description": "Dark theme inspired by Earthsong",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "Kubes",
   "engines": {
     "vscode": "^1.62.0"
@@ -21,7 +21,7 @@
     "color": "#252c35",
     "theme": "dark"
   },
-  "icon": "https://gitlab.com/helgejs/kubesong-vscode-theme/-/raw/main/images/icon/kubesLogo.png",
+  "icon": "images/icon/kubesLogo.png",
   "contributes": {
     "themes": [
       {
