@@ -9,6 +9,6 @@ The colors are optimized for Typescript/Javascript so discrepancies in other lan
 
 If that's the case just report a bug about it and I'll fix it.
 
-![code](https://gitlab.com/helgejs/kubesong-vscode-theme/-/raw/main/images/transparent-code.png)
+![code](https://raw.githubusercontent.com/helgelol/kubesong-vscode-theme/main/images/transparent-code.png)
 
 **Enjoy!**
