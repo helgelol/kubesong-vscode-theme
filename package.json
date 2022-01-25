@@ -12,10 +12,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/helgejs/kubesong-vscode-theme"
+    "url": "https://github.com/helgelol/kubesong-vscode-theme"
   },
   "bugs": {
-    "url": "https://gitlab.com/helgejs/kubesong-vscode-theme/-/issues"
+    "url": "https://github.com/helgelol/kubesong-vscode-theme/issues"
   },
   "galleryBanner": {
     "color": "#252c35",
