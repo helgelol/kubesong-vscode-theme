@@ -18,3 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.2] - 2021-11-30
 
 - More work done on the readme part.
+
+## [1.0.3] - 2021-11-30
+
+- Moved project to github, and implemented CI/CD.
