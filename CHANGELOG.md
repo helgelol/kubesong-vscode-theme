@@ -22,3 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.3] - 2021-11-30
 
 - Moved project to github, and implemented CI/CD.
+
+## [1.0.4] - 2022-02-06
+
+- GitHub Actions tinkering.
