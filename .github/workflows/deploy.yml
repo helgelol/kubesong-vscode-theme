@@ -1,9 +1,11 @@
+name: Deploy Extension
+
 on:
   push:
-    tags:
-      - "*"
+    branches: [main]
+  pull_request:
+    branches: [main]
 
-name: Deploy Extension
 jobs:
   deploy:
     runs-on: ubuntu-latest
