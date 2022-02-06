@@ -2,9 +2,8 @@ name: Deploy Extension
 
 on:
   push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+    tags:
+      - "*"
 
 jobs:
   deploy:
@@ -15,7 +14,6 @@ jobs:
         with:
           node-version: 15
       - run: npm install
-      - run: npm run package
       - name: Publish to Visual Studio Marketplace
         uses: HaaLeo/publish-vscode-extension@v1
         with:
