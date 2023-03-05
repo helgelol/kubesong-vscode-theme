@@ -26,3 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.4] - 2022-02-06
 
 - GitHub Actions tinkering.
+
+## [1.0.5] - 2023-03-05
+
+- Added Elixir support

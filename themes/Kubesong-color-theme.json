@@ -684,7 +684,7 @@
       }
     },
     {
-      "scope": "entity.name.function",
+      "scope": ["entity.name.function", "entity.name.function-call.elixir"],
       "settings": {
         "foreground": "#60A365",
         "fontStyle": ""
@@ -976,14 +976,19 @@
       "scope": [
         "variable.other.object.property.js",
         "variable.other.property.js",
-        "meta.object-literal.key.js"
+        "meta.object-literal.key.js",
+        "variable.other.constant.elixir"
       ],
       "settings": {
         "foreground": "#B34233"
       }
     },
     {
-      "scope": ["constant.language.json.comments", "variable.language.this.js"],
+      "scope": [
+        "constant.language.json.comments",
+        "variable.language.this.js",
+        "source.elixir"
+      ],
       "settings": {
         "foreground": "#E5AB91",
         "fontStyle": "italic"
