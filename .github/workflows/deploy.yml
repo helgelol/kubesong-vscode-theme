@@ -1,19 +1,22 @@
 name: Deploy Extension
 
-on:
-  push:
-    tags:
-      - "*"
+on: [push]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node 16
+        uses: actions/setup-node@v3
         with:
-          node-version: 15
-      - run: npm install
+          node-version: 16.x
+
+      - name: Install Node Modules
+        run: npm install
+
       - name: Publish to Visual Studio Marketplace
         uses: HaaLeo/publish-vscode-extension@v1
         with:
