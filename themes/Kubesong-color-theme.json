@@ -684,7 +684,11 @@
       }
     },
     {
-      "scope": ["entity.name.function", "entity.name.function-call.elixir"],
+      "scope": [
+        "entity.name.function",
+        "entity.name.function-call.elixir",
+        "variable.other.global.php"
+      ],
       "settings": {
         "foreground": "#60A365",
         "fontStyle": ""
@@ -977,7 +981,8 @@
         "variable.other.object.property.js",
         "variable.other.property.js",
         "meta.object-literal.key.js",
-        "variable.other.constant.elixir"
+        "variable.other.constant.elixir",
+        "variable.other.php"
       ],
       "settings": {
         "foreground": "#B34233"
