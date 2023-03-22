@@ -39,3 +39,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Cleaned up JSON
 - Tweaked Elixir support
+
+## [1.0.8] - 2023-03-22
+
+- Removed lots of italics from Elixir
+- Keyword operator fix

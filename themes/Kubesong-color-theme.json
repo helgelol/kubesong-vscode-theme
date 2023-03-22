@@ -360,11 +360,7 @@
       }
     },
     {
-      "scope": [
-        "constant.language.json.comments",
-        "variable.language.this.js",
-        "source.elixir"
-      ],
+      "scope": ["constant.language.json.comments", "variable.language.this.js"],
       "settings": {
         "foreground": "#E5AB91",
         "fontStyle": "italic"
@@ -452,7 +448,7 @@
       }
     },
     {
-      "scope": "token.debug-token",
+      "scope": ["token.debug-token", "keyword.operator.other.elixir"],
       "settings": {
         "foreground": "#B267E6"
       }
