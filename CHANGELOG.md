@@ -34,3 +34,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.6] - 2023-03-06
 
 - Added some missing PHP support
+
+## [1.0.7] - 2023-03-22
+
+- Cleaned up JSON
+- Tweaked Elixir support
