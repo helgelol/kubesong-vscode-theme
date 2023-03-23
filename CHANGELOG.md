@@ -44,3 +44,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Removed lots of italics from Elixir
 - Keyword operator fix
+
+## [1.0.8] - 2023-03-23
+
+- Color grouping
+- Elixir params and source

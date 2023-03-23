@@ -199,29 +199,16 @@
       }
     },
     {
-      "scope": "variable.parameter",
-      "settings": {
-        "foreground": "#EBD1B7",
-        "fontStyle": ""
-      }
-    },
-    {
       "scope": "support.other.variable",
       "settings": {
         "fontStyle": ""
       }
     },
     {
-      "scope": "invalid",
+      "scope": ["invalid", "invalid.deprecated"],
       "settings": {
         "foreground": "#CF433E",
         "fontStyle": ""
-      }
-    },
-    {
-      "scope": "invalid.deprecated",
-      "settings": {
-        "foreground": "#CF433E"
       }
     },
     {
@@ -273,12 +260,6 @@
       }
     },
     {
-      "scope": "meta.property-value punctuation.separator.key-value",
-      "settings": {
-        "foreground": "#EBD1B7"
-      }
-    },
-    {
       "scope": [
         "keyword.other.use",
         "keyword.other.function.use",
@@ -307,13 +288,6 @@
       ],
       "settings": {
         "foreground": "#95CC5E",
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "scope": "variable.other",
-      "settings": {
-        "foreground": "#EBD1B7",
         "fontStyle": "italic"
       }
     },
@@ -354,13 +328,29 @@
       }
     },
     {
-      "scope": "meta.template.expression",
+      "scope": [
+        "meta.template.expression",
+        "meta.embedded.block.html",
+        "variable.parameter",
+        "meta.property-value punctuation.separator.key-value",
+        "source.elixir"
+      ],
       "settings": {
         "foreground": "#EBD1B7"
       }
     },
     {
-      "scope": ["constant.language.json.comments", "variable.language.this.js"],
+      "scope": ["source.elixir"],
+      "settings": {
+        "foreground": "#E5AB91"
+      }
+    },
+    {
+      "scope": [
+        "constant.language.json.comments",
+        "variable.language.this.js",
+        "variable.other"
+      ],
       "settings": {
         "foreground": "#E5AB91",
         "fontStyle": "italic"
@@ -400,12 +390,6 @@
       }
     },
     {
-      "scope": "meta.embedded.block.html",
-      "settings": {
-        "foreground": "#EBD1B7"
-      }
-    },
-    {
       "scope": ["entity.name.type.module.elixir"],
       "settings": {
         "foreground": "#5aa395"
@@ -423,6 +407,7 @@
         "variable.other.property.js",
         "meta.object-literal.key.js",
         "variable.other.constant.elixir",
+        "parameter.variable.function.elixir",
         "variable.other.php"
       ],
       "settings": {
