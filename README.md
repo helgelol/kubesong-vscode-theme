@@ -2,9 +2,9 @@
 
 A flat VSCode theme inspired by Earthsong (Rainglow).
 
-The colors are optimized for Typescript/Javascript so discrepancies in other languages might occur.
+The colors are optimized for Elixir, PHP and Typescript/Javascript.
 
-If that's the case just report a bug about it and I'll fix it.
+In case of discrepancies in other languages just report a bug, or make a pull request.
 
 ![code](https://raw.githubusercontent.com/helgelol/kubesong-vscode-theme/main/images/transparent-code.png)
 

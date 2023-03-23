@@ -390,7 +390,10 @@
       }
     },
     {
-      "scope": ["entity.name.type.module.elixir"],
+      "scope": [
+        "entity.name.type.module.elixir",
+        "variable.other.anonymous.elixir"
+      ],
       "settings": {
         "foreground": "#5aa395"
       }
@@ -433,7 +436,11 @@
       }
     },
     {
-      "scope": ["token.debug-token", "keyword.operator.other.elixir"],
+      "scope": [
+        "token.debug-token",
+        "keyword.operator.other.elixir",
+        "punctuation.separator.object.elixir"
+      ],
       "settings": {
         "foreground": "#B267E6"
       }
