@@ -278,8 +278,8 @@
         "support.function",
         "punctuation.definition.tag.begin.tsx",
         "punctuation.definition.tag.end.tsx",
-        "punctuation.definition.tag.begin.jsx",
-        "punctuation.definition.tag.end.jsx"
+        "punctuation.definition.tag.begin.js.jsx",
+        "punctuation.definition.tag.end.js.jsx"
       ],
       "settings": {
         "foreground": "#95CC5E"
