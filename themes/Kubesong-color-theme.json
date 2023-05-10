@@ -275,7 +275,11 @@
         "markup.italic.markdown",
         "storage.type",
         "entity.name.tag",
-        "support.function"
+        "support.function",
+        "punctuation.definition.tag.begin.tsx",
+        "punctuation.definition.tag.end.tsx",
+        "punctuation.definition.tag.begin.jsx",
+        "punctuation.definition.tag.end.jsx"
       ],
       "settings": {
         "foreground": "#95CC5E"
