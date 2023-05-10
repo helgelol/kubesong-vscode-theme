@@ -2,7 +2,7 @@
   "name": "kubesong",
   "displayName": "Kubesong",
   "description": "Dark theme inspired by Earthsong",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "publisher": "Kubes",
   "scripts": {
     "package": "./node_modules/vsce/vsce package",
