@@ -61,3 +61,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.12] - 2023-05-10
 
 - Typo in the JSX part
+
+## [1.0.13] - 2023-07-23
+
+- Tweaked Go support

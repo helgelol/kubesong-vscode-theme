@@ -344,7 +344,7 @@
       }
     },
     {
-      "scope": ["source.elixir"],
+      "scope": ["source.elixir", "source.go"],
       "settings": {
         "foreground": "#E5AB91"
       }
@@ -387,19 +387,39 @@
         "entity.name.tag.css",
         "entity.name.tag.custom.css",
         "punctuation.section.embedded.elixir",
-        "constant.language.symbol.elixir"
+        "constant.language.symbol.elixir",
+        "entity.name.tag"
       ],
       "settings": {
         "foreground": "#77851C"
       }
     },
     {
+      "scope": [],
+      "settings": {
+        "foreground": "#528491"
+      }
+    },
+    {
       "scope": [
         "entity.name.type.module.elixir",
-        "variable.other.anonymous.elixir"
+        "variable.other.anonymous.elixir",
+        "keyword.operator.assignment"
       ],
       "settings": {
         "foreground": "#5aa395"
+      }
+    },
+    {
+      "scope": ["entity.name.package"],
+      "settings": {
+        "foreground": "#8fbf7d"
+      }
+    },
+    {
+      "scope": ["entity.name.import"],
+      "settings": {
+        "foreground": "#B9BB25"
       }
     },
     {
@@ -415,10 +435,39 @@
         "meta.object-literal.key.js",
         "variable.other.constant.elixir",
         "parameter.variable.function.elixir",
-        "variable.other.php"
+        "variable.other.php",
+        "keyword.package",
+        "keyword.import",
+        "keyword.function"
       ],
       "settings": {
         "foreground": "#B34233"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.separator",
+        "punctuation.section.embedded",
+        "meta.function",
+        "meta.brace.round",
+        "punctuation.terminator.statement",
+        "punctuation.definition.block",
+        "punctuation.other",
+        "punctuation.definition.begin.bracket.curly",
+        "punctuation.definition.end.bracket.curly",
+        "punctuation.definition.begin.bracket.round",
+        "punctuation.definition.end.bracket.round",
+        "punctuation.definition.begin.bracket.square",
+        "punctuation.definition.end.bracket.square"
+      ],
+      "settings": {
+        "foreground": "#fe7f1b"
+      }
+    },
+    {
+      "scope": ["keyword.control.conditional"],
+      "settings": {
+        "foreground": "#f8ba39"
       }
     },
     {
